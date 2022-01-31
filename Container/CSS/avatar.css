@@ -1,68 +1,76 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: content-box;
     font-size: 1rem;
 }
-.avatar-round{
+
+.avatar-round {
     display: flex;
     gap: 1rem;
     align-items: center;
 }
 
-.avatar-rounded_xS{
+.avatar-rounded_xS {
     height: 3rem;
     border-radius: 50%;
 }
-.avatar-rounded_S{
+
+.avatar-rounded_S {
     height: 3.5rem;
     border-radius: 50%;
 }
-.avatar-rounded_M{
+
+.avatar-rounded_M {
     height: 4rem;
     border-radius: 50%;
 }
-.avatar-rounded_L{
+
+.avatar-rounded_L {
     height: 4.5rem;
     border-radius: 50%;
 }
 
-.avatar-square{
+.avatar-square {
     display: flex;
     gap: 1rem;
     align-items: center;
 }
-.avatar-square_xS{
+
+.avatar-square_xS {
     height: 3rem;
     border-radius: 25%;
 }
 
-.avatar-square_S{
+.avatar-square_S {
     height: 3.5rem;
     border-radius: 25%;
 }
 
-.avatar-square_M{
+.avatar-square_M {
     height: 4rem;
     border-radius: 25%;
 }
 
-.avatar-square_L{
+.avatar-square_L {
     height: 4.5rem;
     border-radius: 25%;
 }
-.avatar-badge-sqaure{
+
+.avatar-badge-sqaure {
     display: flex;
     gap: 1rem;
-    
-    
 }
-.avatar-badge_xS ,.avatar-badge_S,.avatar-badge_L,.avatar-badge_M{
+
+.avatar-badge_xS,
+.avatar-badge_S,
+.avatar-badge_L,
+.avatar-badge_M {
     position: relative;
     display: inline-block;
 }
 
-.avatar-badge-sqaure p{
+.avatar-badge-sqaure p {
     position: absolute;
     height: 0.8rem;
     width: 0.8rem;
@@ -70,16 +78,15 @@
     bottom: 2%;
     right: 0;
     border-radius: 50%;
-
 }
-.text-avatar{
+
+.text-avatar {
     display: flex;
     gap: 1rem;
     align-items: center;
-    
 }
 
-.text-avatar_xS{
+.text-avatar_xS {
     height: 3rem;
     width: 3rem;
     border-radius: 50%;
@@ -91,7 +98,7 @@
     line-height: 3rem;
 }
 
-.text-avatar_S{
+.text-avatar_S {
     height: 3.5rem;
     width: 3.5rem;
     border-radius: 50%;
@@ -103,7 +110,7 @@
     line-height: 3.45rem;
 }
 
-.text-avatar_M{
+.text-avatar_M {
     height: 4rem;
     width: 4rem;
     border-radius: 50%;
@@ -115,7 +122,7 @@
     line-height: 4rem;
 }
 
-.text-avatar_L{
+.text-avatar_L {
     height: 4.5rem;
     width: 4.5rem;
     border-radius: 50%;
