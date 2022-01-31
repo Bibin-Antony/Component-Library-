@@ -1,3 +1,5 @@
+@import url(/Container/CSS/style.css);
+
 * {
     margin: 0;
     padding: 0;
@@ -5,56 +7,51 @@
     font-size: 1rem;
 }
 
-.avatar-round {
+.avatar {
     display: flex;
     gap: 1rem;
     align-items: center;
+}
+
+.avatar-rounded {
+    border-radius: 50%;
 }
 
 .avatar-rounded_xS {
     height: 3rem;
-    border-radius: 50%;
 }
 
 .avatar-rounded_S {
     height: 3.5rem;
-    border-radius: 50%;
 }
 
 .avatar-rounded_M {
     height: 4rem;
-    border-radius: 50%;
+
 }
 
 .avatar-rounded_L {
     height: 4.5rem;
-    border-radius: 50%;
 }
 
 .avatar-square {
-    display: flex;
-    gap: 1rem;
-    align-items: center;
+    border-radius: 25%;
 }
 
 .avatar-square_xS {
     height: 3rem;
-    border-radius: 25%;
 }
 
 .avatar-square_S {
     height: 3.5rem;
-    border-radius: 25%;
 }
 
 .avatar-square_M {
     height: 4rem;
-    border-radius: 25%;
 }
 
 .avatar-square_L {
     height: 4.5rem;
-    border-radius: 25%;
 }
 
 .avatar-badge-sqaure {
@@ -62,10 +59,7 @@
     gap: 1rem;
 }
 
-.avatar-badge_xS,
-.avatar-badge_S,
-.avatar-badge_L,
-.avatar-badge_M {
+.avatar-badge {
     position: relative;
     display: inline-block;
 }
@@ -74,7 +68,7 @@
     position: absolute;
     height: 0.8rem;
     width: 0.8rem;
-    background: chartreuse;
+    background: var(--badge-color);
     bottom: 2%;
     right: 0;
     border-radius: 50%;
@@ -86,14 +80,18 @@
     align-items: center;
 }
 
+.avatar-text {
+    background: #2c2a2a;
+    text-align: center;
+    color: var(--text-color);
+    vertical-align: center;
+    vertical-align: center;
+}
+
 .text-avatar_xS {
     height: 3rem;
     width: 3rem;
     border-radius: 50%;
-    background: rgb(44, 42, 42);
-    text-align: center;
-    color: white;
-    vertical-align: center;
     font-size: 0.8rem;
     line-height: 3rem;
 }
@@ -102,11 +100,7 @@
     height: 3.5rem;
     width: 3.5rem;
     border-radius: 50%;
-    background: rgb(44, 42, 42);
-    text-align: center;
     font-size: 1rem;
-    color: white;
-    vertical-align: center;
     line-height: 3.45rem;
 }
 
@@ -114,11 +108,7 @@
     height: 4rem;
     width: 4rem;
     border-radius: 50%;
-    background: rgb(44, 42, 42);
-    text-align: center;
-    color: white;
     font-size: 1.2rem;
-    vertical-align: center;
     line-height: 4rem;
 }
 
@@ -126,10 +116,6 @@
     height: 4.5rem;
     width: 4.5rem;
     border-radius: 50%;
-    background: rgb(44, 42, 42);
-    text-align: center;
-    color: white;
     font-size: 1.5rem;
-    vertical-align: center;
     line-height: 4.5rem;
 }
