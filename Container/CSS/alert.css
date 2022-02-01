@@ -6,12 +6,19 @@
     box-sizing: border-box;
 }
 
+.alert-wrapper{
+    /* outline: 2px solid black; */
+    padding: 0rem 1.5rem;
+}
 .alert {
     display: flex;
     flex-wrap: wrap;
-    padding: 1.4rem;
+    justify-content: space-evenly;
+    height: 4rem;
+    align-content: center;
     outline: 1px black solid;
-    width: fit-content;
+    width: 45%;
+    margin-bottom: 1rem;
     border-radius: 0.2rem;
     color: var(--text-color);
 }
