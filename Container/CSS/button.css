@@ -1,0 +1,84 @@
+@import url(/Container/CSS/style.css);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.btn-style{
+    padding: 0.4rem 1.2rem;
+    border-radius: 0.2rem;
+    font-family: var(--font-primary);
+    font-size: 1rem;
+    font-weight: 500;
+    outline: 1px solid black;
+    cursor: pointer;
+    margin: 0.5rem;
+}
+.primary-btn{
+    color: var(--text-color);
+    background: var(--tertiary-color);
+}
+.danger-btn{
+    color: var(--text-color);
+    background: var(--danger-alert);
+}
+.warning-btn{
+    color: var(--text-color);
+    background: var(--warning-alert);
+}
+.success-btn{
+    color: var(--text-color);
+    background: var(--success-alert);
+}
+.info-btn{
+    color: var(--text-color);
+    background: var(--info-alert);
+}
+.link-btn a{
+    text-decoration: none;
+    color: var(--alt-text-color);
+}
+.icon-btn {
+    display: flex;
+    padding: 0.2rem 0.8rem;
+    font-size: 1.1rem;
+    align-items: center;
+}
+
+
+.icons{
+    font-size: 1.5rem;
+}
+.icon-btn button{
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    padding: 0.6rem 1.1rem;
+    color: var(--text-color);
+    cursor: pointer;
+    background: var(--tertiary-color);
+    border-radius: 0.2rem;
+}
+
+.icon{
+    font-size: 1.3rem;
+    padding: 0rem 0.3rem 0.3rem 0.3rem;
+}
+.float-btn{
+    display: flex;
+    padding: 0.2rem;
+    background: #06ca06;
+    border-radius: 50%;
+    color: var(--text-color);
+    font-size: 1.5rem;    
+    cursor: pointer;
+    text-align: center;
+}
