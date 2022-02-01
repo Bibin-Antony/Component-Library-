@@ -10,13 +10,16 @@
     --primary: #071a2f;
     --secondary: #013a72;
     --text-color: #f3f4f6;
-    --alt-text-color: #001e3c;
+    --alt-text-color:black;
+    --alt-text-Color: #001e3c;
     --tertiary-color: #3399ff;
+    --notification-color:#007bff;
     --badge-color: chartreuse;
     --danger-alert: #f44336;
     --success-alert: #04AA6D;
     --info-alert: #2196F3;
     --warning-alert: #fc9d10;
+    --Secondary-color:#6c757d;
     --font-primary: 'IBM Plex Sans', sans-serif;
 }
 
