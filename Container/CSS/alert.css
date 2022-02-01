@@ -1,11 +1,12 @@
 @import url(/Container/CSS/style.css);
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
+}
 
-.alert{
+.alert {
     display: flex;
     flex-wrap: wrap;
     padding: 1.4rem;
@@ -14,10 +15,12 @@
     border-radius: 0.2rem;
     color: var(--text-color);
 }
-.alert-danger{
+
+.alert-danger {
     background: var(--danger-alert)
 }
-.alert_closebtn{
+
+.alert_closebtn {
     margin-left: 15px;
     color: var(--text-color);
     cursor: pointer;
@@ -25,16 +28,19 @@
     margin-right: 0;
 }
 
-.alert a{
+.alert a {
     text-decoration: none;
-    color:var(--text-color);
+    color: var(--text-color);
 }
-.alert-success{
+
+.alert-success {
     background: var(--success-alert);
 }
-.alert-info{
+
+.alert-info {
     background: var(--info-alert);
 }
-.alert-warning{
+
+.alert-warning {
     background: var(--warning-alert);
 }
