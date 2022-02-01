@@ -1,0 +1,192 @@
+@import url(/Container/CSS/style.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+.Badge {
+    display: flex;
+    gap: 1rem;
+}
+
+.badge {
+    display: flex;
+    outline: 1px solid black;
+    width: 8rem;
+    height: 2.2rem;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 0.2rem;
+    color: var(--text-color);
+    background: var(--notification-color);
+    cursor: pointer;
+    font-family: var(--font-primary);
+    margin-bottom: 1rem;
+}
+
+.number {
+    padding: 0.1rem 0.3rem;
+    border-radius: 20%;
+    background: var(--text-color);
+    color: var(--alt-text-color);
+}
+
+.badge-links {
+    display: flex;
+    align-content: center;
+}
+
+.badge-links a {
+    color: var(--text-color);
+    text-decoration: none;
+    font-size: 0.9rem;
+    padding: 0.2rem 0.5rem;
+    border-radius: 0.4rem;
+    margin: 0.2rem;
+}
+
+.primary {
+    background: var(--notification-color);
+}
+
+.secondary {
+    background: var(--Secondary-color);
+}
+
+.success {
+    background: var(--success-alert);
+}
+
+.danger {
+    background: var(--danger-alert);
+}
+
+.warning {
+    background: var(--warning-alert);
+}
+
+.info {
+    background: var(--info-alert);
+}
+
+.icon-badge i {
+    padding: 0.2rem;
+    border-radius: 50%;
+    outline: 2px solid black;
+    font-size: 2rem;
+}
+
+.alt1 {
+    background: var(--alt-text-color);
+    color: var(--text-color);
+}
+
+.badge-icon-notification {
+    display: flex;
+    gap: 1rem;
+}
+
+.icon-badge {
+    position: relative;
+    display: inline-block;
+    margin: 0.5rem;
+}
+
+.icon-badge p {
+    display: flex;
+    position: absolute;
+    top: -0.2rem;
+    right: -0.5rem;
+    border-radius: 50%;
+    width: 1.1rem;
+    height: 1.1rem;
+    font-size: 0.9rem;
+    font-weight: 700;
+    justify-content: center;
+    padding-top: 0.1rem;
+}
+
+.icon-badge .number1 {
+    outline: 1px solid black;
+    background: var(--text-color);
+}
+
+.icon-badge .number2 {
+    outline: 1px solid black;
+    color: var(--text-color);
+    background: var(--alt-text-color);
+}
+
+.chat-badge {
+    position: relative;
+    display: inline-block;
+}
+
+.chat-badge i {
+    font-size: 3rem;
+}
+
+.chat-badge p {
+    display: flex;
+    position: absolute;
+    top: 0;
+    right: -0.2rem;
+    color: var(--alt-text-color);
+    width: 1.2rem;
+    height: 1.1rem;
+    border-radius: 50%;
+    justify-content: center;
+    outline: 1px solid black;
+    background: var(--text-color);
+}
+
+.chat-badge .chat1 {
+    color: var(--Secondary-color);
+}
+
+.chat-badge .bage-number-white {
+    background: var(--alt-text-color);
+    color: var(--text-color);
+}
+
+.chat-badge .chat2 {
+    color: var(--alt-text-color);
+}
+
+.badge-mail {
+    position: relative;
+    display: inline-block;
+}
+
+.badge-message i {
+    font-size: 3rem;
+    color: var(--Secondary-color);
+}
+
+.badge-number {
+    display: flex;
+    position: absolute;
+    top: 0;
+    right: -0.2rem;
+    width: 1.2rem;
+    height: 1.1rem;
+    border-radius: 50%;
+    justify-content: center;
+    outline: 1px solid black;
+}
+
+.badge-mail .num1 {
+    color: var(--text-color);
+    background: var(--alt-text-color);
+}
+
+.badge-mail .num2 {
+    color: var(--alt-text-color);
+    background: var(--text-color);
+}
+
+.black i {
+    color: var(--alt-text-color);
+}
