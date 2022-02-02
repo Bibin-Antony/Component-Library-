@@ -1,18 +1,18 @@
 @import url(/Container/CSS/style.css);
 
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: content-box;
 }
 
-.btn{
+.btn {
     display: flex;
     align-items: center;
     gap: 1rem;
 }
 
-.btn-style{
+.btn-style {
     padding: 0.4rem 1.2rem;
     border-radius: 0.2rem;
     font-family: var(--font-primary);
@@ -21,31 +21,34 @@
     outline: 1px solid black;
     cursor: pointer;
     margin: 0.5rem;
-}
-.primary-btn{
     color: var(--text-color);
+}
+
+.primary-btn {
     background: var(--tertiary-color);
 }
-.danger-btn{
-    color: var(--text-color);
+
+.danger-btn {
     background: var(--danger-alert);
 }
-.warning-btn{
-    color: var(--text-color);
+
+.warning-btn {
     background: var(--warning-alert);
 }
-.success-btn{
-    color: var(--text-color);
+
+.success-btn {
     background: var(--success-alert);
 }
-.info-btn{
-    color: var(--text-color);
+
+.info-btn {
     background: var(--info-alert);
 }
-.link-btn a{
+
+.link-btn a {
     text-decoration: none;
     color: var(--alt-text-color);
 }
+
 .icon-btn {
     display: flex;
     padding: 0.2rem 0.8rem;
@@ -54,10 +57,11 @@
 }
 
 
-.icons{
+.icons {
     font-size: 1.5rem;
 }
-.icon-btn button{
+
+.icon-btn button {
     display: flex;
     align-items: center;
     font-size: 1rem;
@@ -68,17 +72,18 @@
     border-radius: 0.2rem;
 }
 
-.icon{
+.icon {
     font-size: 1.3rem;
     padding: 0rem 0.3rem 0.3rem 0.3rem;
 }
-.float-btn{
+
+.float-btn {
     display: flex;
     padding: 0.2rem;
     background: #06ca06;
     border-radius: 50%;
     color: var(--text-color);
-    font-size: 1.5rem;    
+    font-size: 1.5rem;
     cursor: pointer;
     text-align: center;
 }
