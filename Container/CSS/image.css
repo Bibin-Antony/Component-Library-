@@ -1,0 +1,35 @@
+@import url(/Container/CSS/style.css);
+
+.response-image {
+  display: flex;
+  width: 30%;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.responsive-img {
+  width: 100%;
+  height: auto;
+}
+
+.rounded {
+  border-radius: 50%;
+  width: 20rem;
+  height: 20rem;
+  height: auto;
+}
+
+.circular {
+  position: relative;
+  width: 20vw;
+  height: 20vw;
+  border-radius: 50%;
+}
+
+.circular img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
