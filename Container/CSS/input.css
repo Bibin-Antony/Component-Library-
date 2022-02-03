@@ -1,37 +1,38 @@
 @import url(/Container/CSS/style.css);
 
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-.text-input{
+
+
+.text-input {
     position: relative;
 }
-.input-textBox{
+
+.input-textBox {
     margin: 1rem;
     border: 2px solid var(--alt-text-Color);
     border-radius: 0.4rem;
     width: 14.4rem;
     padding: 0.7rem 0.8rem;
     font-size: 1.2rem;
-    font-family:serif;
+    font-family: serif;
 }
-.input-label{
+
+.input-label {
     position: absolute;
     top: 0.4rem;
     background: var(--input-background);
     padding: 0rem 0.3rem;
     left: 1.5rem;
     font-size: 1.2rem;
-    font-family:serif;
+    font-family: serif;
 }
-.text-input .input{
+
+.text-input .input {
     position: absolute;
     left: 13rem;
     top: 2rem;
     font-size: 1.3rem;
 }
-.danger{
+
+.danger {
     color: var(--danger-alert);
 }
