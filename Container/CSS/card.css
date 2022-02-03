@@ -15,7 +15,7 @@ body{
 .card{
     display: flex;
     flex-direction: column;
-    background: #191938;
+    background: var(--card-color-primary);
     gap: 0.3rem;
     box-shadow: 0 2px 3px  4px var(--alt-text-color);
     margin: 1rem;
@@ -26,7 +26,7 @@ body{
 .horizontal{
     display: flex;
     flex-direction: row;
-    background: #191938;
+    background: var(--card-color-primary);
     gap: 0.3rem;
     box-shadow: 0 2px 3px  4px var(--alt-text-color);
     margin: 1rem;
@@ -84,6 +84,12 @@ body{
 .footer-card a{
     text-decoration: none;
     color: var(--text-color);
+}
+.footer-card p:hover{
+    box-shadow: 1px 1px 4px 2px var(--text-color);
+}
+.footer-cards p:hover{
+    box-shadow: 1px 1px 4px 2px var(--text-color);
 }
 .font{
     border: 2px solid var(--text-color);
