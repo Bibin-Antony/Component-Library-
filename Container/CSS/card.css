@@ -1,0 +1,70 @@
+@import url(/Container/CSS/style.css);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    background: #191938;
+    gap: 0.3rem;
+    box-shadow: 0 2px 3px  4px var(--alt-text-color);
+    margin: 1rem;
+    width: 17.75rem;
+    outline: 1px solid var(--alt-text-color);
+    border-radius: 1rem;
+}
+.card-image{
+    width: 100%;
+    height: 11.25rem;
+    border-radius: 1rem 1rem 0rem 0rem;
+}
+.text-context{
+    font-family: var(--font-primary);
+    padding: 0.1rem 0.8rem;
+    color: var(--text-color);
+}
+.details-heading{
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+.details-price{
+    font-size: 1rem;
+    font-weight: 500;
+}
+.details-content{
+    border-top: 2px solid var(--text-color);
+    font-size: 0.875rem;
+    margin: 0.3rem 0.8rem;
+    padding: 0.5rem 0rem;
+    color: var(--text-color);
+}
+.footer-card{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer-card{
+    border-top: 2px solid var(--text-color);
+    padding: 0.8rerem;
+}
+.footer-card a{
+    text-decoration: none;
+    color: var(--text-color);
+}
+.font{
+    border: 2px solid var(--text-color);
+    padding: 0.1rem 0.7rem;
+    border-radius: 1rem;
+    font-size: 1.1rem;
+}
