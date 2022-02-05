@@ -10,7 +10,7 @@
 .avatar {
     display: flex;
     gap: 1rem;
-    align-items: center;
+    align-items: flex-end;
 }
 
 .avatar-rounded {
