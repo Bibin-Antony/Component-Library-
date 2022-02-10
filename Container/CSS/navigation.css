@@ -1,0 +1,60 @@
+@import url(/Container/CSS/style.css);
+body{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+.simple-navBar{
+    display: flex;
+    width: 100%;
+    outline: 2px solid black;
+    justify-content: space-between;
+    align-items: center;
+}
+.simple-navBar i{
+    margin-left: 2%;
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+    font-size: 1.6rem;
+    outline: 2px solid black;
+}
+.navBar--contents{
+    display: flex;
+    padding: 1rem;
+}
+.navBar--contents a{
+    text-decoration: none;
+    color: var(--alt-text-color);
+    padding:  0.8rem;
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    outline: 2px solid black;
+    border-radius: 0.3rem;
+    margin: 0rem 1rem;
+}
+.navBar--contents a:hover,.simple-navBar i:hover,.navBar-left-contents a:hover{
+    color: var(--text-color);
+    background-color: var(--alt-text-color);
+}
+
+.navBar-left-contents{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    outline: 2px solid black;
+    align-items: center;
+    height: 3rem;
+    padding: 0rem 1rem;
+    font-size: 1.3rem;
+    font-family: serif;
+}
+.navBar--left{
+    display: flex;
+    gap: 2rem;
+}
+.navBar-left-contents a{
+    text-decoration: none;
+    color: var(--alt-text-color);
+    padding: 0.3rem 0.6rem;
+    border-radius: 0.3rem;
+}
