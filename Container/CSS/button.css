@@ -1,11 +1,5 @@
 @import url(/Container/CSS/style.css);
 
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: content-box;
-}
-
 .btn {
     display: flex;
     align-items: center;

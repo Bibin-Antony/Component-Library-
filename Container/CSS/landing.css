@@ -1,0 +1,9 @@
+@font-face {
+    font-family: "logo-font";
+    src: url(/Container/Assets/Fonts/Vanillaextract-1GZ84.ttf);
+}
+.logo{
+    font-family: logo-font;
+    font-size: 1rem;
+    color: black;
+}

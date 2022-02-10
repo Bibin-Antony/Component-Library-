@@ -1,28 +1,21 @@
 @import url(/Container/CSS/style.css);
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-.alert-wrapper{
-    /* outline: 2px solid black; */
-    padding: 0rem 1.5rem;
-}
 .alert {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    justify-content: space-around;
     height: 4rem;
-    align-content: center;
-    outline: 1px black solid;
-    width: 45%;
-    margin-bottom: 1rem;
+    border: 1.5px black solid;
+    min-width: 35rem;
+    margin: 1rem;
     border-radius: 0.2rem;
     color: var(--text-color);
+    align-items: center;
 }
-
+.alert-wrapper{
+    padding: 0rem 1.5rem;
+    font-size: 1.25rem;
+}
 .alert-danger {
     background: var(--danger-alert)
 }

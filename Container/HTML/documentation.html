@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="/Container/CSS/started.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="main-Container">
+        <!-- Nav Bar -->
+        <header class="header-main">
+            <nav class="nav-bar">
+                <a href="#" id="Menubtn"><i class='bx bx-menu'></i></a>
+                <a href="#">
+                    <p class="nav-title menu">Home</p>
+                </a>
+                <a href="#">
+                    <p class="nav-title menu">Guides</p>
+                </a>
+                <a href="#">
+                    <p class="nav-title menu">Blog</p>
+                </a>
+            </nav>
+            <a href="#"><i class='bx bxl-github github'></i></a>
+        </header>
+
+        <section class="main-Container--holder">
+            <!-- Side Bar -->
+            <div class="side-Bar" id="Side-Bar" data-toggle="1">
+                <div class="side-Bar--container">
+                    <p class="list-heading">
+                        Get Started!
+                    </p>
+                    <ul class="side-bar--container">
+                        <a href="/Container/HTML/started.html">
+                            <li class="list-item">
+                                Getting Started
+                            </li>
+                        </a>
+                        <a href="#Design-system">
+                            <li class="list-item">
+                                Design System
+                            </li>
+                        </a>
+                        <a href="https://github.com/Bibin-Antony/Component-Library-" target="_blank">
+                            <li class="list-item">
+                                Github
+                            </li>
+                        </a>
+                    </ul>
+                    <ul class="side-bar--container">
+                        <p class="list-heading">
+                            Components
+                        </p>
+                        <a href="/Container/HTML/documentation.html">
+                            <li class="list-item">
+                                Alert
+                            </li>
+                        </a>
+                        <a href="/Container/HTML/documentation.html">
+                            <li class="list-item">
+                                Avatar
+                            </li>
+                        </a>
+                        <a href="/Container/HTML/documentation.html">
+                            <li class="list-item">
+                                Badge
+                            </li>
+                        </a>
+                        <a href="/Container/HTML/documentation.html">
+                            <li class="list-item">
+                                Button
+                            </li>
+                        </a>
+                        <a href="/Container/HTML/documentation.html">
+                            <li class="list-item">
+                                Card
+                            </li>
+                        </a>
+                        <a href="/Container/HTML/documentation.html">
+                            <li class="list-item">
+                                Grid
+                            </li>
+                        </a>
+                        <a href="/Container/HTML/documentation.html">
+                            <li class="list-item">
+                                Image
+                            </li>
+                        </a>
+                        <a href="/Container/HTML/documentation.html">
+                            <li class="list-item">
+                                Input
+                            </li>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+            <div class="documentation-container">
+                <p class="documentation-title">Component</p>
+                <p class="documentation-title underline">Alert</p>
+                <p class="documentation--content">
+                    An alert displays a short, important message in a way that attracts the user's attention without
+                    interrupting the user's task.
+                </p>
+                <p class="components-title">Simple Alert</p>
+                <p class="documentation--content">
+                    Simple Alerts can be created using alert class, followed by the variant name.
+                </p>
+                <p class="document-description--title">Preview :</p>
+                <div class="preview-component">
+                    <div class="alert-danger alert">
+                        <div class="alert-wrapper">
+                            <strong>Danger!&nbsp;</strong> Indicates danger with some content and a&nbsp;<a
+                                href="#">link</a></div>
+                        <span class="alert_closebtn" onclick="this.parentElement.style.display='none';"><i
+                                class='bx bx-x'></i></span>
+                    </div>
+                    <div class="alert-success alert">
+                        <div class="alert-wrapper">
+                            <strong>Success!&nbsp;</strong> Indicates success with some content and a&nbsp;<a
+                                href="#">link</a>
+                        </div>
+                        <span class="alert_closebtn" onclick="this.parentElement.style.display='none';"><i
+                                class='bx bx-x'></i></span>
+                    </div>
+                    <div class="alert-info alert">
+                        <div class="alert-wrapper">
+                            <strong>Info!&nbsp;</strong> Indicates neutral info with some content and a&nbsp;<a
+                                href="#">link</a></div>
+                        <span class="alert_closebtn" onclick="this.parentElement.style.display='none';"><i
+                                class='bx bx-x'></i></span>
+                    </div>
+                    <div class="alert-warning alert">
+                        <div class="alert-wrapper">
+                            <strong>Warning!&nbsp;</strong> Indicates warning with some content and a&nbsp;<a
+                                href="#">link</a></div>
+                        <span class="alert_closebtn" onclick="this.parentElement.style.display='none';"><i
+                                class='bx bx-x'></i></span>
+                    </div>
+                </div>
+                <div class="code-link">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=sharp&l=auto&width=680&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%252F%252FDanger%2520Alert%250A%253Cdiv%2520class%253D%2522alert-danger%2520alert%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522alert-wrapper%2522%253E%250A%2520%2520%2520%2520%253Cstrong%253EDanger%21%2526nbsp%253B%253C%252Fstrong%253E%2520Indicates%2520danger%2520with%2520some%2520content%2520and%250A%2520%2520%2520%2520a%2526nbsp%253B%253Ca%2520href%253D%2522%2523%2522%253Elink%253C%252Fa%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cspan%2520class%253D%2522alert_closebtn%2522%2520onclick%253D%2522this.parentElement.style.display%253D%27none%27%253B%2522%253E%250A%2520%2520%2509%253Ci%2520class%253D%2522bx%2520bx-x%2522%253E%253C%252Fi%253E%250A%2520%2520%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A"
+                        style="width: 729px; height: 279px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=sharp&l=auto&width=680&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%252F%252FSuccess%2520Alert%250A%253Cdiv%2520class%253D%2522alert-success%2520alert%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522alert-wrapper%2522%253E%250A%2520%2520%2520%2520%253Cstrong%253ESuccess%21%2526nbsp%253B%253C%252Fstrong%253E%2520Indicates%2520success%2520with%2520some%2520content%2520and%250A%2520%2520%2520%2520a%2526nbsp%253B%253Ca%2520href%253D%2522%2523%2522%253Elink%253C%252Fa%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cspan%2520class%253D%2522alert_closebtn%2522%2520onclick%253D%2522this.parentElement.style.display%253D%27none%27%253B%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522bx%2520bx-x%2522%253E%253C%252Fi%253E%250A%2520%2520%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A"
+                        style="width: 729px; height: 279px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=sharp&l=auto&width=680&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%252F%252FInfo%2520Alert%250A%253Cdiv%2520class%253D%2522alert-info%2520alert%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522alert-wrapper%2522%253E%250A%2520%2520%2520%2520%253Cstrong%253EInfo%21%2526nbsp%253B%253C%252Fstrong%253E%2520Indicates%2520neutral%2520info%2520with%2520some%2520content%2520and%250A%2520%2520%2520%2520a%2526nbsp%253B%253Ca%2520href%253D%2522%2523%2522%253Elink%253C%252Fa%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cspan%2520class%253D%2522alert_closebtn%2522%250A%2520%2520%2520%2520onclick%253D%2522this.parentElement.style.display%253D%27none%27%253B%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522bx%2520bx-x%2522%253E%253C%252Fi%253E%250A%2520%2520%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A"
+                        style="width: 687px; height: 297px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=sharp&l=auto&width=680&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%252F%252FWarning%2520Alert%250A%253Cdiv%2520class%253D%2522alert-warning%2520alert%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522alert-wrapper%2522%253E%250A%2520%2520%2520%2520%253Cstrong%253EWarning%21%2526nbsp%253B%253C%252Fstrong%253E%2520Indicates%2520warning%2520with%2520some%2520content%2520and%250A%2520%2520%2520%2520a%2526nbsp%253B%253Ca%2520href%253D%2522%2523%2522%253Elink%253C%252Fa%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cspan%2520class%253D%2522alert_closebtn%2522%2520onclick%253D%2522this.parentElement.style.display%253D%27none%27%253B%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522bx%2520bx-x%2522%253E%253C%252Fi%253E%250A%2520%2520%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A"
+                        style="width: 712px; height: 262px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+                <p class="documentation-title underline">Avatar</p>
+                <p class="documentation--content">
+                    Avatars are user profile pictures, usually found in circular shapes. Avatars can be used for
+                    'container' objects — projects, spaces, repositories, etcetera — to give them a recognisable visual
+                    identity.
+                </p>
+                <p class="components-title">Rounded Avatar</p>
+                <p class="document-description--title">Preview :</p>
+                <div class="preview-component center">
+                    <div class="avatar avatar-round">
+                        <img src="https://i.ibb.co/ChwdZ7v/face4.jpg" alt="avatar"
+                            class="avatar-rounded_xS avatar-rounded">
+                        <img src="https://i.ibb.co/ChwdZ7v/face4.jpg" alt="avatar"
+                            class="avatar-rounded_S avatar-rounded">
+                        <img src="https://i.ibb.co/ChwdZ7v/face4.jpg" alt="avatar"
+                            class="avatar-rounded_M avatar-rounded">
+                        <img src="https://i.ibb.co/ChwdZ7v/face4.jpg" alt="avatar"
+                            class="avatar-rounded_L avatar-rounded">
+                    </div>
+                </div>
+                <div class="preview-component">
+                <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=sharp&l=auto&width=680&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%252F%252FRounded%2520Avatar%2520%28size%2520-%252001%29%250A%253Cimg%2520src%253D%2522https%253A%252F%252Fi.ibb.co%252FChwdZ7v%252Fface4.jpg%2522%250Aalt%253D%2522avatar%2522%2520class%253D%2522avatar-rounded_xS%2520avatar-rounded%2522%253E%250A%250A%252F%252FRounded%2520Avatar%2520%28size%2520-%252002%29%250A%253Cimg%2520src%253D%2522https%253A%252F%252Fi.ibb.co%252FChwdZ7v%252Fface4.jpg%2522%250A%2520%2520alt%253D%2522avatar%2522class%253D%2522avatar-rounded_S%2520avatar-rounded%2522%253E%250A%250A%252F%252FRounded%2520Avatar%2520%28size%2520-%252003%29%250A%253Cimg%2520src%253D%2522https%253A%252F%252Fi.ibb.co%252FChwdZ7v%252Fface4.jpg%2522%2520%250A%2520%2520alt%253D%2522avatar%2522class%253D%2522avatar-rounded_M%2520avatar-rounded%2522%253E%250A%2520%2520%250A%252F%252FRounded%2520Avatar%2520%28size%2520-%252004%29%250A%253Cimg%2520src%253D%2522https%253A%252F%252Fi.ibb.co%252FChwdZ7v%252Fface4.jpg%2522%2520%250Aalt%253D%2522avatar%2522class%253D%2522avatar-rounded_L%2520avatar-rounded%2522%253E"
+  style="width: 493px; height: 353px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+                <p class="components-title">Square Avatar</p>
+                <p class="document-description--title">Preview :</p>
+                <div class="preview-component center">
+                    <div class="avatar avatar-square">
+                        <img src="https://i.ibb.co/ChwdZ7v/face4.jpg" alt="avatar"
+                            class="avatar-square_xS avatar-square">
+                        <img src="https://i.ibb.co/ChwdZ7v/face4.jpg" alt="avatar"
+                            class="avatar-square_S avatar-square">
+                        <img src="https://i.ibb.co/ChwdZ7v/face4.jpg" alt="avatar"
+                            class="avatar-square_M avatar-square">
+                        <img src="https://i.ibb.co/ChwdZ7v/face4.jpg" alt="avatar"
+                            class="avatar-square_L avatar-square">
+                    </div>
+                </div>
+                <div class="preview-component">
+                    <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=sharp&l=auto&width=680&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%252F%252FSquare%2520Avatar%2520%28size%2520-%252001%29%250A%253Cimg%2520src%253D%2522https%253A%252F%252Fi.ibb.co%252FChwdZ7v%252Fface4.jpg%2522%2520%250A%2520alt%253D%2522avatar%2522class%253D%2522avatar-square_xS%2520avatar-square%2522%253E%250A%2520%250A%252F%252FSquare%2520Avatar%2520%28size%2520-%252002%29%2520%2520%2520%250A%253Cimg%2520src%253D%2522https%253A%252F%252Fi.ibb.co%252FChwdZ7v%252Fface4.jpg%2522%250A%2520alt%253D%2522avatar%2522class%253D%2522avatar-square_S%2520avatar-square%2522%253E%250A%2520%250A%252F%252FSquare%2520Avatar%2520%28size%2520-%252003%29%2520%2520%2520%2520%2520%250A%253Cimg%2520src%253D%2522https%253A%252F%252Fi.ibb.co%252FChwdZ7v%252Fface4.jpg%2522%2520%250A%2520%2520alt%253D%2522avatar%2522class%253D%2522avatar-square_M%2520avatar-square%2522%253E%250A%2520%2520%250A%252F%252FSquare%2520Avatar%2520%28size%2520-%252004%29%2520%2520%2520%2520%2520%2520%250A%253Cimg%2520src%253D%2522https%253A%252F%252Fi.ibb.co%252FChwdZ7v%252Fface4.jpg%2522%250A%2520%2520alt%253D%2522avatar%2522class%253D%2522avatar-square_L%2520avatar-square%2522%253E"
+  style="width: 477px; height: 353px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+                    </iframe>   
+                </div>
+
+                <p class="components-title"> Avatar (With Text)</p>
+                <p class="document-description--title">Preview :</p>
+                <div class="preview-component center">
+                    <div class="text-avatar">
+                        <h3 class="text-avatar_xS avatar-text">EX</h3>
+                        <h3 class="text-avatar_S avatar-text">EX</h3>
+                        <h3 class="text-avatar_M avatar-text">EX</h3>
+                        <h3 class="text-avatar_L avatar-text">EX</h3>
+                    </div>
+                </div>
+                <div class="preview-component">
+                    <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=sharp&l=auto&width=680&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%252F%252FAvatar%2520%28With%2520Text%29%2520Size%2520-%252001%250A%253Ch3%2520class%253D%2522text-avatar_xS%2520avatar-text%2522%253EEX%253C%252Fh3%253E%250A%250A%252F%252FAvatar%2520%28With%2520Text%29%2520Size%2520-%252002%250A%253Ch3%2520class%253D%2522text-avatar_S%2520avatar-text%2522%253EEX%253C%252Fh3%253E%250A%250A%252F%252FAvatar%2520%28With%2520Text%29%2520Size%2520-%252003%250A%253Ch3%2520class%253D%2522text-avatar_M%2520avatar-text%2522%253EEX%253C%252Fh3%253E%250A%250A%252F%252FAvatar%2520%28With%2520Text%29%2520Size%2520-%252004%250A%253Ch3%2520class%253D%2522text-avatar_L%2520avatar-text%2522%253EEX%253C%252Fh3%253E"
+  style="width: 426px; height: 279px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+
+                <p class="documentation-title underline">Badge</p>
+                <p class="components-title">Square Avatar (With Badge)</p>
+                <p class="document-description--title">Preview :</p>
+                <div class="preview-component center">
+                    <div class="avatar-badge-sqaure">
+                        <div class="avatar-badge_xS avatar-badge" style="align-self: center;">
+                            <img src="https://i.ibb.co/ChwdZ7v/face4.jpg" alt="avatar"
+                                class="avatar-square_xS avatar-square">
+                            <p class="avatar-badge_xs"></p>
+                        </div>
+                        <div class="avatar-badge_S avatar-badge" style="align-self: center;">
+                            <img src="https://i.ibb.co/ChwdZ7v/face4.jpg" alt="avatar"
+                                class="avatar-square_S avatar-square">
+                            <p class="avatar-badge_s"></p>
+                        </div>
+                        <div class="avatar-badge_M avatar-badge" style="align-self: center;">
+                            <img src="https://i.ibb.co/ChwdZ7v/face4.jpg" alt="avatar"
+                                class="avatar-square_M avatar-square">
+                            <p class="avatar-badge_l"></p>
+                        </div>
+                        <div class="avatar-badge_L avatar-badge" style="align-self: center;">
+                            <img src="https://i.ibb.co/ChwdZ7v/face4.jpg" alt="avatar"
+                                class="avatar-square_L avatar-square">
+                            <p class="avatar-badge_m"></p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="preview-component center">
+                    <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=sharp&l=auto&width=680&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%252F%252FAvatar%2520%28with%2520badge%29%2520Size%2520-%252001%250A%253Cdiv%2520class%253D%2522avatar-badge_xS%2520avatar-badge%2522%2520style%253D%2522align-self%253A%2520center%253B%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520src%253D%2522https%253A%252F%252Fi.ibb.co%252FChwdZ7v%252Fface4.jpg%2522%2520alt%253D%2522avatar%2522%2520class%253D%2522avatar-square_xS%2520avatar-square%2522%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522avatar-badge_xs%2522%253E%253C%252Fp%253E%250A%253C%252Fdiv%253E%250A%2520%2520%2520%2520%250A%2520%252F%252FAvatar%2520%28with%2520badge%29%2520Size%2520-%252002%2520%2520%2520%250A%253Cdiv%2520class%253D%2522avatar-badge_S%2520avatar-badge%2522%2520style%253D%2522align-self%253A%2520center%253B%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520src%253D%2522https%253A%252F%252Fi.ibb.co%252FChwdZ7v%252Fface4.jpg%2522%2520alt%253D%2522avatar%2522%2520class%253D%2522avatar-square_S%2520avatar-square%2522%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522avatar-badge_s%2522%253E%253C%252Fp%253E%250A%253C%252Fdiv%253E%250A%2520%2520%2520%2520%250A%252F%252FAvatar%2520%28with%2520badge%29%2520Size%2520-%252003%2520%2520%2520%2520%250A%253Cdiv%2520class%253D%2522avatar-badge_M%2520avatar-badge%2522%2520style%253D%2522align-self%253A%2520center%253B%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520src%253D%2522https%253A%252F%252Fi.ibb.co%252FChwdZ7v%252Fface4.jpg%2522%2520alt%253D%2522avatar%2522%2520class%253D%2522avatar-square_M%2520avatar-square%2522%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522avatar-badge_l%2522%253E%253C%252Fp%253E%250A%253C%252Fdiv%253E%250A%2520%2520%2520%2520%250A%252F%252FAvatar%2520%28with%2520badge%29%2520Size%2520-%252004%2520%2520%2520%2520%250A%253Cdiv%2520class%253D%2522avatar-badge_L%2520avatar-badge%2522%2520style%253D%2522align-self%253A%2520center%253B%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520src%253D%2522https%253A%252F%252Fi.ibb.co%252FChwdZ7v%252Fface4.jpg%2522%2520alt%253D%2522avatar%2522%2520class%253D%2522avatar-square_L%2520avatar-square%2522%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522avatar-badge_m%2522%253E%253C%252Fp%253E%250A%253C%252Fdiv%253E"
+                    style="width: 898px; height: 502px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                  </iframe>
+                </div>
+
+                <p class="components-title">Notification Badge</p>
+                <p class="document-description--title">Preview :</p>
+                <div class="preview-component center">
+                    <div class="notification-badge Badge badge">
+                        <p class="badge-context">
+                            Notification
+                        </p>
+                        <p class="badge-notification number">
+                            4
+                        </p>
+                    </div>
+                </div>
+                <div class="preview-component center">
+                    <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=sharp&l=auto&width=680&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522notification-badge%2520Badge%2520badge%2522%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522badge-context%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520Notification%250A%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522badge-notification%2520number%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%25204%250A%2520%2520%2520%2520%253C%252Fp%253E%250A%253C%252Fdiv%253E"
+  style="width: 409px; height: 223px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+
+                <p class="components-title">Icon Badge</p>
+                <p class="document-description--title">Preview :</p>
+                <div class="preview-component center">
+                    <div class="badge-icon-notification Badge">
+                        <div class="icon-badge">
+                            <i class='bx bx-user alt1'></i>
+                            <p class="badge-number number1">3</p>
+                        </div>
+                        <div class="icon-badge">
+                            <i class='bx bx-user alt2'></i>
+                            <p class="badge-number number2">3</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="preview-component center">
+                    <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=sharp&l=auto&width=680&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%252F%252FIcon%2520QWith%2520Black%2520Baground%250A%253Cdiv%2520class%253D%2522icon-badge%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%27bx%2520bx-user%2520alt1%27%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522badge-number%2520number1%2522%253E3%253C%252Fp%253E%250A%253C%252Fdiv%253E%250A%250A%252F%252FIcon%2520With%2520White%2520Baground%250A%253Cdiv%2520class%253D%2522icon-badge%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%27bx%2520bx-user%2520alt2%27%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522badge-number%2520number2%2522%253E3%253C%252Fp%253E%250A%253C%252Fdiv%253E"
+  style="width: 384px; height: 279px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+
+                <p class="components-title">Chat Notification Badge</p>
+                <p class="document-description--title">Preview :</p>
+                <div class="preview-component center">
+                    <div class="badge-chat-notification Badge">
+                        <div class="chat-badge white">
+                            <i class='bx bxs-message chat1'></i>
+                            <p class="bage-number-white ">3</p>
+                        </div>
+                        <div class="chat-badge black">
+                            <i class='bx bxs-message chat2'></i>
+                            <p class="bage-number-black ">3</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="preview-component center">
+                    <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=sharp&l=auto&width=680&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%252F%252FIcon%2520With%2520Black%2520Baground%250A%253Cdiv%2520class%253D%2522chat-badge%2520white%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%27bx%2520bxs-message%2520chat1%27%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522bage-number-white%2520%2522%253E3%253C%252Fp%253E%250A%253C%252Fdiv%253E%250A%250A%252F%252FIcon%2520With%2520White%2520Baground%250A%253Cdiv%2520class%253D%2522chat-badge%2520black%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%27bx%2520bxs-message%2520chat2%27%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522bage-number-black%2520%2522%253E3%253C%252Fp%253E%250A%253C%252Fdiv%253E"
+  style="width: 375px; height: 279px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+
+                <p class="components-title">Mail Notification Badge</p>
+                <p class="document-description--title">Preview :</p>
+                <div class="preview-component center">
+                    <div class="badge-message Badge">
+                        <div class="badge-mail grey">
+                            <i class='bx bxl-gmail'></i>
+                            <p class="badge-number num1">3</p>
+                        </div>
+                        <div class="badge-message Badge">
+                            <div class="badge-mail black">
+                                <i class='bx bxl-gmail'></i>
+                                <p class="badge-number num2">3</p>
+                            </div>
+                        </div>
+                        </div>
+                </div>
+                <div class="preview-component center">
+                    <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=sharp&l=auto&width=680&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%252F%252FIcon%2520With%2520Black%2520Baground%250A%253Cdiv%2520class%253D%2522badge-mail%2520grey%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%27bx%2520bxl-gmail%27%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522badge-number%2520num1%2522%253E3%253C%252Fp%253E%250A%253C%252Fdiv%253E%250A%250A%252F%252FIcon%2520With%2520White%2520Baground%250A%253Cdiv%2520class%253D%2522badge-mail%2520black%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%27bx%2520bxl-gmail%27%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522badge-number%2520num2%2522%253E3%253C%252Fp%253E%250A%253C%252Fdiv%253E"
+  style="width: 359px; height: 279px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+
+                <p class="documentation-title underline">Button</p>
+                <p class="documentation--content">
+                    Buttons are the soul of an interactive Web Application. Buttons allow users to take actions, and make choices, with a single tap.
+                </p>
+                <p class="components-title">Normal Button</p>
+                <p class="document-description--title">Preview :</p>
+                <div class="preview-component center">
+                    <div class="badge-links Badge">
+                        <a href="#" class="badge-link primary">primary</a>
+                        <a href="#" class="badge-link secondary">secondary</a>
+                        <a href="#" class="badge-link success">success</a>
+                        <a href="#" class="badge-link danger">danger</a>
+                        <a href="#" class="badge-link warning">warning</a>
+                        <a href="#" class="badge-link info">info</a>
+                    </div>
+                </div>
+                <div class="preview-component center">
+                    <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=sharp&l=auto&width=680&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%252F%252FPrimary%250A%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522badge-link%2520primary%2522%253Eprimary%253C%252Fa%253E%250A%250A%252F%252FSecondary%250A%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522badge-link%2520secondary%2522%253Esecondary%253C%252Fa%253E%250A%250A%252F%252FSuccess%250A%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522badge-link%2520success%2522%253Esuccess%253C%252Fa%253E%250A%250A%252F%252FDanger%250A%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522badge-link%2520danger%2522%253Edanger%253C%252Fa%253E%250A%250A%252F%252FWarning%250A%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522badge-link%2520warning%2522%253Ewarning%253C%252Fa%253E%250A%250A%252F%252FInfo%250A%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522badge-link%2520info%2522%253Einfo%253C%252Fa%253E"
+  style="width: 493px; height: 390px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+
+
+                <p class="components-title">Button (With Icon)</p>
+                <p class="document-description--title">Preview :</p>
+                <div class="preview-component center">
+                    <div class="icon-btn btn">
+                        <button><i class='bx bx-home icon'></i>Home</button>
+                        <button><i class='bx bxs-trash icon'></i>Trash</button>
+                        <button><i class='bx bx-x icons'></i>Close</button>
+                        <button><i class='bx bxs-folder icon'></i>Folder</button>
+                    </div>
+                </div>
+                <div class="preview-component center">
+                    <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=sharp&l=htmlmixed&width=680&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%252F%252FHome%2520Icon%250A%253Cbutton%253E%253Ci%2520class%253D%27bx%2520bx-home%2520icon%27%253E%253C%252Fi%253EHome%253C%252Fbutton%253E%250A%250A%252F%252FTrash%2520Icon%250A%253Cbutton%253E%253Ci%2520class%253D%27bx%2520bxs-trash%2520icon%27%253E%253C%252Fi%253ETrash%253C%252Fbutton%253E%250A%250A%252F%252FClose%2520Icon%250A%253Cbutton%253E%253Ci%2520class%253D%27bx%2520bx-x%2520icons%27%253E%253C%252Fi%253EClose%253C%252Fbutton%253E%250A%250A%252F%252FFolder%2520Icon%250A%253Cbutton%253E%253Ci%2520class%253D%27bx%2520bxs-folder%2520icon%27%253E%253C%252Fi%253EFolder%253C%252Fbutton%253E"
+  style="width: 702px; height: 262px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+
+                
+                <p class="components-title">Floating Action Button</p>
+                <p class="document-description--title">Preview :</p>
+                <div class="preview-component center">
+                    <div class="float-icon btn">
+                        <button class="float-btn"><i class='bx bx-check float-btn'></i></button>
+                        <button class="float-btn"><i class='bx bx-plus float-btn'></i></button>
+                        <button class="float-btn"><i class='bx bxs-user-plus float-btn'></i></button>
+                    </div>
+                </div>
+                <div class="preview-component center">
+                    <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=sharp&l=htmlmixed&width=680&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%252F%252FCheck%2520Float%2520Button%250A%253Cbutton%2520class%253D%2522float-btn%2522%253E%253Ci%2520class%253D%27bx%2520bx-check%2520float-btn%27%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%250A%252F%252FPlus%2520Floar%2520button%250A%253Cbutton%2520class%253D%2522float-btn%2522%253E%253Ci%2520class%253D%27bx%2520bx-plus%2520float-btn%27%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%250A%252F%252FAdd%2520User%2520floar%2520button%250A%253Cbutton%2520class%253D%2522float-btn%2522%253E%253Ci%2520class%253D%27bx%2520bxs-user-plus%2520float-btn%27%253E%253C%252Fi%253E%253C%252Fbutton%253E"
+  style="width: 770px; height: 206px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+
+
+                <p class="documentation-title underline">Card</p>
+                <p class="components-title">Card (with Button)</p>
+                <p class="document-description--title">Preview :</p>
+                <div class="preview-component center">
+                    <div class="badge-card card">
+                        <img src="https://i.ibb.co/WDbJ3KK/photo-1542291026-7eec264c27ff-ixid-MXwx-Mj-A3f-DB8-MHxz-ZWFy-Y2h8-MXx8c2hv-ZXMl-Mj-Bua-Wtlf-GVuf-DB8.jpg"
+                            alt="red-shoes" class="card-images">
+                        <p class="details-heading text-context">Nike</p>
+                        <p class="details-price text-context">₹8000</p>
+                        <p class="details-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, dignissimos.</p>
+                        <div class="footer-card">
+                            <p class="footer-buy font"><a href="#">Buy Now</p></a>
+                            <p class="footer-share font"><a href="#">Share</p></a>
+                            <a href="#"><i class='bx bx-cart font'></i></a>
+                            <a href="#"><i class='bx bx-chat font'></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <p class="components-title">Card With Dismiss</p>
+                <p class="document-description--title">Preview :</p>
+                <div class="preview-component center">
+                    <div class="card-dismiss card">
+                        <div class="dismiss-card">
+                        <img src="https://i.ibb.co/WDbJ3KK/photo-1542291026-7eec264c27ff-ixid-MXwx-Mj-A3f-DB8-MHxz-ZWFy-Y2h8-MXx8c2hv-ZXMl-Mj-Bua-Wtlf-GVuf-DB8.jpg"
+                            alt="red-shoes" class="card-image">
+                            <a href=""><i class='bx bx-x close'></i></a>
+                        </div>
+                        <p class="details-heading text-context">Nike</p>
+                        <p class="details-price text-context">₹8000</p>
+                        <p class="details-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, dignissimos.</p>
+                        <div class="footer-card">
+                            <p class="footer-buy font"><a href="#">Buy Now</p></a>
+                            <p class="footer-share font"><a href="#">Share</p></a>
+                            <a href="#"><i class='bx bx-cart font'></i></a>
+                            <a href="#"><i class='bx bx-chat font'></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <p class="components-title">Card With Text Overlay</p>
+                <p class="document-description--title">Preview :</p>
+                <div class="preview-component center">
+                    <div class="card-overlay card badge-card">
+                        <div class="image"><img src="https://i.ibb.co/WDbJ3KK/photo-1542291026-7eec264c27ff-ixid-MXwx-Mj-A3f-DB8-MHxz-ZWFy-Y2h8-MXx8c2hv-ZXMl-Mj-Bua-Wtlf-GVuf-DB8.jpg"
+                            alt="red-shoes" class="card-images">
+                        </div>
+                        <div class="overlay">
+                        <p class="details-heading text-context shadow">Nike</p>
+                        <p class="details-price text-context shadow">₹8000</p>
+                    </div>
+                        <p class="details-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, dignissimos.</p>
+                        <div class="footer-card">
+                            <p class="footer-buy font"><a href="#">Buy Now</p></a>
+                            <p class="footer-share font"><a href="#">Share</p></a>
+                            <a href="#"><i class='bx bx-cart font'></i></a>
+                            <a href="#"><i class='bx bx-chat font'></i></a>
+                        </div>
+                    </div>
+                
+                </div>
+
+                <p class="components-title">Card With Text Only</p>
+                <p class="document-description--title">Preview :</p>
+                <div class="preview-component center">
+                    <div class="text-card card badge-card">
+                        <img src="https://i.ibb.co/WDbJ3KK/photo-1542291026-7eec264c27ff-ixid-MXwx-Mj-A3f-DB8-MHxz-ZWFy-Y2h8-MXx8c2hv-ZXMl-Mj-Bua-Wtlf-GVuf-DB8.jpg"
+                            alt="red-shoes" class="card-images">
+                        <p class="details-heading text-context">Nike</p>
+                        <p class="details-price text-context">₹8000</p>
+                        <p class="details-contents">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, dignissimos.</p>
+                    </div>
+                </div>
+
+                <p class="components-title">Vertical Card</p>
+                <p class="document-description--title">Preview :</p>
+                <div class="preview-component center">
+                    <div class="card-horizontal horizontal">
+                        <img src="https://i.ibb.co/WDbJ3KK/photo-1542291026-7eec264c27ff-ixid-MXwx-Mj-A3f-DB8-MHxz-ZWFy-Y2h8-MXx8c2hv-ZXMl-Mj-Bua-Wtlf-GVuf-DB8.jpg"
+                            alt="red-shoes" class="image-card">
+                            <div class="text-contents">  
+                        <p class="details-heading text-context">Nike</p>
+                        <p class="details-price text-context">₹8000</p>            
+                        <div class="footer-cards">
+                            <p class="footer-buy font"><a href="#">Buy Now</p></a>
+                            <p class="footer-share font"><a href="#">Share</p></a>
+                            <a href="#"><i class='bx bx-cart font'></i></a>
+                            <a href="#"><i class='bx bx-chat font'></i></a>
+                        </div>
+                    </div>  
+                    </div>
+                </div>
+
+                <p class="components-title">Card With Shadow</p>
+                <p class="document-description--title">Preview :</p>
+                <div class="preview-component center">
+                    <div class="card-shadow card badge-card card-shadow">
+                        <img src="https://i.ibb.co/WDbJ3KK/photo-1542291026-7eec264c27ff-ixid-MXwx-Mj-A3f-DB8-MHxz-ZWFy-Y2h8-MXx8c2hv-ZXMl-Mj-Bua-Wtlf-GVuf-DB8.jpg"
+                            alt="red-shoes" class="card-images">
+                        <p class="details-heading text-context">Nike</p>
+                        <p class="details-price text-context">₹8000</p>
+                        <p class="details-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, dignissimos.</p>
+                        <div class="footer-card">
+                            <p class="footer-buy font"><a href="#">Buy Now</p></a>
+                            <p class="footer-share font"><a href="#">Share</p></a>
+                            <a href="#"><i class='bx bx-cart font'></i></a>
+                            <a href="#"><i class='bx bx-chat font'></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <p class="documentation-title underline">Image</p>
+                <p class="components-title">Square responsive Image</p>
+                <p class="document-description--title">Preview :</p>
+                <div class="preview-component center">
+                    <div class="response-image square">
+                        <img src="https://i.ibb.co/MSgJDJn/responsiveimg.jpg" alt="responsiveimg" class="responsive-img">
+                        <img src="https://i.ibb.co/3YfJ4rG/photo-1522071901873-411886a10004-ixlib-rb-1-2.jpg" alt="photo-1522071901873-411886a10004-ixlib-rb-1-2" class="responsive-img">
+                        <img src="https://i.ibb.co/Mg67MHM/photo-1593062096033-9a26b09da705-ixlib-rb-1-2.jpg" alt="photo-1593062096033-9a26b09da705-ixlib-rb-1-2" class="responsive-img">
+                        <img src="https://i.ibb.co/171VdTQ/photo-1499951360447-b19be8fe80f5-ixlib-rb-1-2.png" alt="photo-1499951360447-b19be8fe80f5-ixlib-rb-1-2" class="responsive-img">
+                </div>
+                </div>
+
+                <p class="components-title">Rounded responsive Image</p>
+                <p class="document-description--title">Preview :</p>
+                <div class="preview-component center">
+                    <div class="response-image circular">
+                        <img src="https://i.ibb.co/3YfJ4rG/photo-1522071901873-411886a10004-ixlib-rb-1-2.jpg" alt="responsiveimg" >
+                        <img src="https://i.ibb.co/171VdTQ/photo-1499951360447-b19be8fe80f5-ixlib-rb-1-2.png" alt="responsiveimg" >
+                        <img src="https://i.ibb.co/Mg67MHM/photo-1593062096033-9a26b09da705-ixlib-rb-1-2.jpg" alt="responsiveimg" >
+                    </div>
+                </div>
+
+                <p class="documentation-title underline">Input</p>
+                <p class="components-title">Input Text Box</p>
+                <p class="document-description--title">Preview :</p>
+                <div class="preview-component center">
+                    <div class="text-input">
+                        <input type="text" class="input-textBox">
+                        <p class="input-label">Label</p>
+                        </div>
+                </div>
+                
+                <p class="components-title">Input Text Box (With Validation)</p>
+                <p class="document-description--title">Danger Validation Preview :</p>
+                <div class="preview-component center">
+                    <div class="text-input">
+                    <input type="text" class="input-textBox">
+                    <p class="input-label">Label</p>
+                    <i class='bx bx-error input Danger'></i>
+                </div></div>
+                <p class="document-description--title">Satisfied Validation Preview :</p>
+                <div class="preview-component center">
+                    <div class="text-input">
+                        <input type="text" class="input-textBox">
+                        <p class="input-label">Label</p>
+                        <i class='bx bx-check input'></i>
+                    </div>
+                </div>
+
+                </div>
+        </section>
+        <section class="footer">
+            <div class="footer-container">
+                <img src="https://img.icons8.com/pastel-glyph/64/000000/brain-3--v1.png" />
+                <p class="logo">Logic UI</p>
+            </div>
+            <div class="footer-container--right">
+                <a href="https://www.linkedin.com/in/bibin-antony-k-5047ab148/"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://twitter.com/bibin_antony_"><i class='bx bxl-twitter'></i></a>
+                <a href="https://github.com/Bibin-Antony"><i class='bx bxl-github'></i></a>
+            </div>
+        </section>
+    </div>
+    <script src="/Container/JS/sideBar.js"></script>
+</body>
+
+</html>
