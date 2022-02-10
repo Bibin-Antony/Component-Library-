@@ -1,0 +1,17 @@
+@import url(/Container/CSS/style.css);
+
+body{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.grey-text{
+    color: grey;
+}
+.center-text{
+    text-align: center;
+}
+.small-text{
+    font-size: small;
+}
