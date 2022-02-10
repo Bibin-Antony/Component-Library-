@@ -202,6 +202,13 @@ body{
     display: flex;
     align-items: center;
 }
+.logo-svg{
+    height: 100%;
+    width: 65%;
+}
+svg.logo-svg{
+   fill: red; 
+}
 .footer-container p.logo{
     margin: 0rem 1rem;
     font-size: 1.6rem;
@@ -214,7 +221,7 @@ body{
 }
 .footer-container--right a{
     text-decoration: none;
-    color: #000000;
+    color: var(--alt-text-Color);
     outline: 2px solid var(--alt-text-Color);
     padding: 0.5rem;
     border-radius: 5rem;
