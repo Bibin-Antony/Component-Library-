@@ -17,8 +17,6 @@ body{
 }
 .main-Container--holder{
     display: flex;
-    /* width: auto;
-    height: auto; */
 }
 
 .side-Bar{
@@ -29,7 +27,7 @@ body{
     position: sticky;
     width: 20rem;
     top: 0;
-    min-width: 10rem;
+    min-width: 15rem;
     height: 100vh;
     padding: 0rem 0.2rem;
     overflow-y: scroll;
@@ -51,7 +49,6 @@ body{
     margin: 1rem 0.2rem;
     border-bottom: 1px solid var(--alt-text-Color);
 }
-
 .side-Bar--container a {
     text-decoration: none;
     color: var(--alt-text-Color);
@@ -83,8 +80,8 @@ body{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    flex: 1;
     gap: 0.5rem;
-    width: 100%;
     padding: 2rem 2rem;
     color: #333333;
 }
@@ -107,6 +104,7 @@ body{
     letter-spacing: 0.1rem;
     font-family: 'Work Sans', sans-serif;
 }
+
 .documentation--content{
     padding: 1.2rem 0rem 1rem 0rem;
     font-size: 1.3rem;
@@ -206,9 +204,6 @@ body{
     height: 100%;
     width: 65%;
 }
-svg.logo-svg{
-   fill: red; 
-}
 .footer-container p.logo{
     margin: 0rem 1rem;
     font-size: 1.6rem;
@@ -231,7 +226,7 @@ svg.logo-svg{
 }
 .footer-container--right a:hover{
     color: white;
-    background: #000000;
+    background: var(--alt-text-Color);
 }
 @media (max-width: 1000px) {
     #Side-Bar{
