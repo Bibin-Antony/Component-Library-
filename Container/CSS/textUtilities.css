@@ -12,3 +12,6 @@ body{
 .center-text{
     text-align: center;
 }
+.small-text{
+    font-size: small;
+}
