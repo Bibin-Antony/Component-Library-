@@ -1,11 +1,11 @@
 @import url(/Container/CSS/style.css);
 body{
-    display: flex;
+    
     flex-direction: column;
     gap: 3rem;
 }
 .simple-navBar{
-    display: flex;
+    
     width: 100%;
     outline: 2px solid black;
     justify-content: space-between;
@@ -19,8 +19,11 @@ body{
     outline: 2px solid black;
 }
 .navBar--contents{
-    display: flex;
+    
     padding: 1rem;
+}
+.display-menu{
+    display: flex;
 }
 .navBar--contents a{
     text-decoration: none;
@@ -38,7 +41,7 @@ body{
 }
 
 .navBar-left-contents{
-    display: flex;
+    
     flex-direction: row;
     justify-content: space-between;
     outline: 2px solid black;
@@ -49,7 +52,7 @@ body{
     font-family: serif;
 }
 .navBar--left{
-    display: flex;
+    
     gap: 2rem;
 }
 .navBar-left-contents a{
