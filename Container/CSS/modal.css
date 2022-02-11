@@ -1,0 +1,58 @@
+@import url(/Container/CSS/style.css);
+
+body {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.modal-warning {
+    display: flex;
+    flex-direction: column;
+    outline: 1px solid black;
+    width: 25rem;
+    height: max-content;
+    padding: 0rem 1rem;
+    margin: auto;
+    background: var(--input-background);
+    outline: 2px solid black;
+    border-radius: 0.3rem;
+    background: rgb(255, 255, 255);
+    color: var(--alt-text-color);
+    font-family: sans-serif;
+}
+
+.warning i {
+    color: var(--danger-alert);
+    padding: 0rem 1rem;
+}
+
+.warning,
+.warning--context,
+.warning--btn {
+    padding: 0.8rem 0rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.warning--btn {
+    margin-left: auto;
+    margin-bottom: 0.5rem;
+}
+
+.warning--btn a{
+    text-decoration: none;
+    color: var(--alt-text-color);
+    font-family: sans-serif;
+    font-weight: 500;
+    outline: 2px solid black;
+    border-radius: 0.3rem;
+    padding: 0.5rem 0.8rem;
+    margin: 0rem 0.5rem;
+    cursor: pointer;
+}
+
+.warning--btn a:hover {
+    color: var(--input-background);
+    background: var(--primary);
+}
