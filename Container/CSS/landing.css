@@ -3,6 +3,10 @@
     font-family: "logo-font";
     src: url(/Container/Assets/Fonts/Vanillaextract-1GZ84.ttf);
 }
+.header-section{
+    outline: 3px solid black;
+    box-shadow: 1px 10px 20px var(--alt-text-Color);
+}
 .logo{
     font-family: logo-font;
     font-size: 1rem;
@@ -11,13 +15,70 @@
 .header-nav{
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
     width: 100%;
+    outline: 1px solid black;
     height: 4.5rem;
 }
 .header-nav svg{
     cursor: pointer;
     height: 100%;
     width: fit-content;
-    outline: 2px solid black;
     border-radius: 0.3rem;
+}
+.nav--rightSection a{
+    padding: 0.5rem 1rem;
+    margin: 0rem 1rem;
+    border-radius: 0.3rem;
+    text-decoration: none;
+    color: var(--alt-text-color);
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.nav--rightSection a:hover{
+    color: var(--text-color);
+    background: var(--alt-text-Color);
+    box-shadow: 2px 8px 10px var(--alt-text-Color);
+    outline: 2px solid whitesmoke;
+}
+.main-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 3rem;
+    height: calc(100vh - 4.5rem);
+    margin: 0.5rem auto;
+}
+.main-container svg{
+    height: 8rem;
+}
+.container--contents{
+    font-size: 3rem;
+    font-family: serif;
+}
+.container--button{
+    padding: 3rem 0rem;
+}
+.container--button a{
+    font-size: 2rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    margin: 0rem 3rem;
+    text-decoration: none;
+    outline: 1px solid black;
+}
+.container--button .started-btn{
+    background: rgb(245, 47, 47);
+    color: #f5f5f5;
+    box-shadow: 1px 10px 20px var(--alt-text-color);
+}
+.container--button .Github-btn{
+    background: #f5f5f5;
+    color: black;
+    box-shadow: 1px 10px 20px var(--alt-text-color);
+}
+.container--button .started-btn:hover, .container--button .Github-btn:hover{
+    box-shadow: 5px 15px 20px var(--alt-text-color);
 }
