@@ -12,7 +12,7 @@ body{
 }
 .twoRow-grid{
     display: grid;
-    background-color: lightpink;
+    background-color: #ffb6c1;
     grid-gap: 1rem;
     grid-template-columns: repeat(2, 14rem);
     justify-content: center;
@@ -23,11 +23,11 @@ body{
     outline: 1px solid black;
     min-width: 4rem;
     height: 9rem;
-    background-color: rgb(120, 120, 170);
+    background-color: #7878aa;
 }
 .threeRow-grid{
     display: grid;
-    background-color: lightpink;
+    background-color: #ffb6c1;
     grid-gap: 1rem;
     grid-template-columns: repeat(3, 14rem);
     justify-content: center;
