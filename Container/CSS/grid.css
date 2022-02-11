@@ -1,0 +1,35 @@
+@import url(/Container/CSS/link.css);
+body{
+    display: flex;
+    flex-direction: column;
+}
+.grid-two,.grid-three{
+    height: 45%;
+    width: 45%;
+    resize: both;
+    overflow: auto;
+    outline: 2px solid black;
+}
+.twoRow-grid{
+    display: grid;
+    background-color: #ffb6c1;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(2, 14rem);
+    justify-content: center;
+    padding: 2rem 0rem;
+}
+
+.twoRow-grid div,.threeRow-grid div{
+    outline: 1px solid black;
+    min-width: 4rem;
+    height: 9rem;
+    background-color: #7878aa;
+}
+.threeRow-grid{
+    display: grid;
+    background-color: #ffb6c1;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(3, 14rem);
+    justify-content: center;
+    padding: 2rem 0rem;
+}
