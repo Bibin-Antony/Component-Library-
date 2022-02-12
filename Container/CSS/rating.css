@@ -6,7 +6,8 @@
     width: fit-content;
     padding: 0.5rem;
     border-radius: 0.3rem;
-    background: black;
+    background: rgb(202, 199, 199);
+    box-shadow: 5px 10px 10px var(--alt-text-color);
 }
 .rating-system i{
     font-size: 1.8rem;
