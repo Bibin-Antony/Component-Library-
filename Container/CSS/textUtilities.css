@@ -5,13 +5,35 @@ body{
     flex-direction: column;
     gap: 1rem;
 }
-
+.heading1{
+    font-size: 4.6rem;
+}
+.heading2{
+    font-size: 3.6rem;
+}
+.heading3{
+    font-size: 2.8rem;
+}
+.heading4{
+    font-size: 2.2rem;
+}
+.heading5{
+    font-size: 1.8rem;
+}
+.heading6{
+    font-size: 1.6rem;
+}
 .grey-text{
     color: grey;
 }
 .center-text{
     text-align: center;
+    width: 30rem;
 }
 .small-text{
+    width: 30rem;
     font-size: small;
+}
+.content{
+    width: 30rem;
 }

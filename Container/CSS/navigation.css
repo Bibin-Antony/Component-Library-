@@ -1,13 +1,13 @@
 @import url(/Container/CSS/style.css);
 
 body {
-
-    flex-direction: column;
+    display: flex;
+    flex-direction: column; 
     gap: 3rem;
 }
 
 .simple-navBar {
-
+    display: ;
     width: 100%;
     outline: 2px solid black;
     justify-content: space-between;
@@ -49,7 +49,7 @@ body {
 }
 
 .navBar-left-contents {
-
+    display: flex;
     flex-direction: row;
     justify-content: space-between;
     outline: 2px solid black;
