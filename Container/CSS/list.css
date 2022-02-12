@@ -12,6 +12,7 @@ body{
 }
 .checkBox-list li, .radioBtn-list li{
     font-size: 1.3rem;
+    list-style: none;
 }
 .checkbox{
     margin-right: 1rem;

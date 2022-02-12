@@ -29,7 +29,7 @@
     text-decoration: none;
     color: var(--alt-text-Color);
 }
-nav{
+.nav-bar{
     display: flex;
     font-size: 1.3rem;
 }
