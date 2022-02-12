@@ -20,8 +20,9 @@
     --text-color: #f3f4f6;
     --input-background: white; 
     --nav-bar-color : whitesmoke;
-    --alt-text-color:black;
+    --alt-text-color:#000000;
     --alt-text-Color: #001e3c;
+    --snackbar-action: #a411df;
     --tertiary-color: #3399ff;
     --notification-color:#007bff;
     --badge-color: chartreuse;
@@ -30,6 +31,7 @@
     --info-alert: #17a2b8;
     --warning-alert: #fc9d10;
     --Secondary-color:#6c757d;
+    --rating-color: yellow;
     --card-background :rgba(20,21,42,255);
     --card-color-primary:#191938;
     --font-primary: 'IBM Plex Sans', sans-serif;

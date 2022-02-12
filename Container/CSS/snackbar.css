@@ -1,0 +1,31 @@
+@import url(/Container/CSS/style.css);
+body{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.snackbar{
+    display: flex;
+    justify-content: space-between;
+    outline: 1px solid black;
+    align-items: center;
+    background: rgb(31, 31, 31);
+    box-shadow: 10px 8px 30px 0px var(--alt-text-color);
+    border-radius: 0.3rem;
+    width: 25rem;
+    padding: 1rem;
+    margin: 1rem;
+    height: 3.5rem;
+}
+.snackbar p{
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: var(--input-background);
+}
+.snackbar a{
+    font-family: serif;
+    color: var(--snackbar-action);
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-decoration: none;
+}
