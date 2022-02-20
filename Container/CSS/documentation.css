@@ -32,7 +32,8 @@ body{
     height: 100vh;
     padding: 0rem 0.2rem;
     overflow-y: scroll;
-    overflow-x: hidden
+    overflow-x: hidden;
+    top : 4.3rem;
 }
 
 .side-Bar--container {
