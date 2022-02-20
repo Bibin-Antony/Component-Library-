@@ -33,7 +33,7 @@ body{
     padding: 0rem 0.2rem;
     overflow-y: scroll;
     overflow-x: hidden;
-    top : 4.3rem;
+    /* top : 4.3rem; */
 }
 
 .side-Bar--container {
@@ -82,7 +82,7 @@ body{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    flex: 1;
+    flex: 1; 
     gap: 0.5rem;
     padding: 2rem 2rem;
     color: #333333;
