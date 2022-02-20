@@ -61,7 +61,8 @@ Logic UI provides a robust, customizable, and accessible library of foundational
 ![image](https://user-images.githubusercontent.com/40894472/154842176-c439acbb-12ed-4d7d-a32e-c9eb1e16f5e8.png)
 
 ## 🔗 Connect with me
-For support or feedback, email at antonybibin43@gmail.com
+For support or feedback, email at 
+antonybibin43@gmail.com
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://twitter.com/bibin_antony_)
 [![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://www.linkedin.com/in/bibin-antony-k-5047ab148/)
 
