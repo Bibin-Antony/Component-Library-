@@ -1,0 +1,33 @@
+.arrival-section{
+    display: grid;
+    grid-template-columns: repeat(3, 18rem);
+    grid-gap: 1rem;
+    padding: 2rem 0rem;
+    text-align: center;
+    cursor: pointer;
+} 
+.arrival-section div{
+    display: flex;
+    flex-direction: column;
+    height: 25rem;
+    gap: 1rem;
+}
+.grid-item img{
+    width: 100%;
+    border-radius: 0.5rem;
+}
+.grid-item p{
+    margin-right: auto;
+}
+.product-title{
+    font-size: 1rem;
+    padding: 0rem 0.8rem;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif; 
+}
+.rating,.product-price{
+    font-size: 0.8rem;
+    padding: 0rem 0.8rem;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif; 
+}
